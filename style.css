@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Stylish&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("./assets/img/background-img.jpeg"); */
+  background-image: url("./assets/img/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.head {
+  text-align: center;
+  padding-top: 10px;
+  color: #ffffff;
+}
+.container {
+  width: 60%;
+  height: 50vh;
+  /* background-image: url("./assets/img/background-img.jpeg"); */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ3Y8-_EC23a2gcZz99RmwdojtmmqLJBhyoA&usqp=CAU);
+  background-size: cover;
+  margin: 5% 20%;
+  border-radius: 20px;
+}
+
+/* search */
+
+.search-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 60%; */
+}
+.search {
+  width: 60vw;
+  height: 40px;
+  color: #ffffff;
+  /* border: 2px solid rgb(83, 80, 80); */
+  /* border: 2px solid #ffffff; */
+  border: 2px solid #ffffff;
+  /* background-color: rgb(216, 213, 213); */
+  /* background-image: url("./assets/img/background-img.jpeg");
+  background-size: cover; */
+  background: none;
+  border-radius: 8px;
+  margin-top: 40px;
+  padding-left: 20px;
+  font-size: 1rem;
+  outline: none;
+}
+.search::placeholder {
+  font-size: 1rem;
+  padding-left: 8px;
+
+  /* color: #000; */
+  color: #ffffff;
+}
+.submit {
+  margin: 20px 40%;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  background: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border: 2px solid #ffffff;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #6f8c9d;
+}
+/* weather container  */
+#items{
+  display: flex;
+  justify-content: space-between;
+}
+.head-three {
+  color: #ffffff;
+  /* color: yellow; */
+  padding: 4vw 4vw 0px 3vw;
+  font-size: 3rem;
+  font-family: "stylish";
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.para{
+  color: #ffffff;
+  /* color: yellow; */
+  font-size: 1.5rem;
+  font-family: "stylish";
+  font-weight: 200;
+}
+.img{
+  width: 150px;
+  height: 150px;
+  margin: 2vw 0px 0px 20px;
+}
+.temp{
+  font-size: 6rem;
+  color: #ffffff;
+  padding: 2vw 2vw;
+  font-weight: 100;
+}
+.feel{
+  font-size: 2rem;
+}
+.condition{
+  color: #ffffff;
+  padding: 0px 30px ;
+  font-size: 2rem;
+  font-family: "stylish";
+  font-weight: 200;
+  letter-spacing: 2px;
+}
